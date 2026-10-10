@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="slider">
+        <div class="slides">
+            <img src="./assets/1.jpeg" alt="car image">
+            <img src="./assets/2.jpeg" alt="car image">
+            <img src="./assets/3.jpeg" alt="car image">
+            <img src="./assets/4.jpeg" alt="car image">
+            <img src="./assets/5.jpeg" alt="car image">
+            <img src="./assets/6.jpeg" alt="car image">
+        </div>
+
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+
+        <div class="dots"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
